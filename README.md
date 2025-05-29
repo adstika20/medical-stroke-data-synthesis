@@ -1,10 +1,6 @@
 # Synthetic Data for Stroke Prediction: Bayesian Network vs Generative Adversarial Network (GAN)
 
-![Ilustrasi Stroke Prediction](https://www.freepik.com/free-vector/illustration-social-media-concept_2807765.htm#from_element=cross_selling__vector)
-
-
-
-
+![Ilustrasi Stroke Prediction](https://github.com/adstika20/medical-stroke-data-synthesis/blob/main/2807765_18140.jpg)
 
 Ilustrasi oleh Freepik - [https://www.freepik.com](https://www.freepik.com)
 
@@ -60,7 +56,7 @@ Kualitas data sintetis dievaluasi menggunakan tiga pendekatan utama berikut:
 - **Train on Synthetic, Test on Real (TSTR)**  
   Mengukur kemampuan generalisasi model yang dilatih menggunakan data sintetis dan diuji pada data asli. Metode ini menguji seberapa “realistis” data sintetis dalam konteks pelatihan model prediktif.
 
-## Result Analisis
+## Hasil dan Analisis
 
 
 
