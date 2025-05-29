@@ -1,5 +1,14 @@
 # Synthetic Data for Stroke Prediction: Bayesian Network vs Generative Adversarial Network (GAN)
 
+![Ilustrasi Stroke Prediction](https://www.freepik.com/free-vector/illustration-social-media-concept_2807765.htm#from_element=cross_selling__vector)
+
+
+
+
+
+Ilustrasi oleh Freepik - [https://www.freepik.com](https://www.freepik.com)
+
+
 Proyek ini membahas penggunaan **data sintetis** untuk meningkatkan akurasi model prediksi risiko stroke, terutama dalam situasi terbatasnya akses terhadap data medis asli yang bersifat sensitif dan dilindungi.
 
 Dua pendekatan generatif yang dibandingkan dalam penelitian ini:
