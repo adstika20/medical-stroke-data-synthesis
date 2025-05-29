@@ -27,13 +27,26 @@ Dataset yang digunakan dalam proyek ini berasal dari salah satu rumah sakit dan 
 | SUHUJ    | Fingertip Temperature         | float64   | °C                |
 | SUHUP    | Wrist Temperature             | float64   | °C                |
 
-## 🛠 Tools & Technologies
-Menggunakan Librarty synthcity dokumentasi resmi nya kunjungi [Read the docs](https://github.com/vanderschaarlab/synthcity)
+## 🛠 Perangkat dan Teknologi
 
-Evaluasi menilai 3 poin ini :
-- KS Test (Kolmogorov-Smirnov Test)
-- PCA (Principal Component Analysis)
-- TSTR (Train on Synthetic, Test on Real)
+Proyek ini menggunakan pustaka **[SynthCity](https://github.com/vanderschaarlab/synthcity)**, yaitu sebuah library Python untuk sintesis data tabular berbasis metode generatif, termasuk GAN dan Bayesian Network. Dokumentasi resmi dapat diakses melalui tautan berikut:  
+🔗 [SynthCity Documentation – Read the Docs](https://github.com/vanderschaarlab/synthcity)
+
+---
+
+## 📈 Metode Evaluasi
+
+Kualitas data sintetis dievaluasi menggunakan tiga pendekatan utama berikut:
+
+- **Kolmogorov–Smirnov (KS) Test**  
+  Mengukur kesamaan distribusi antara data asli dan data sintetis untuk setiap fitur numerik.
+
+- **Principal Component Analysis (PCA)**  
+  Digunakan untuk memvisualisasikan distribusi data sintetis dibandingkan dengan data asli dalam ruang berdimensi rendah (reduksi dimensi).
+
+- **Train on Synthetic, Test on Real (TSTR)**  
+  Mengukur kemampuan generalisasi model yang dilatih menggunakan data sintetis dan diuji pada data asli. Metode ini menguji seberapa “realistis” data sintetis dalam konteks pelatihan model prediktif.
+
 
 ## 🧪 Project Highlights
 
