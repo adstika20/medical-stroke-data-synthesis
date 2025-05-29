@@ -32,6 +32,10 @@ Dataset yang digunakan dalam proyek ini berasal dari salah satu rumah sakit dan 
 Proyek ini menggunakan pustaka **[SynthCity](https://github.com/vanderschaarlab/synthcity)**, yaitu sebuah library Python untuk sintesis data tabular berbasis metode generatif, termasuk GAN dan Bayesian Network. Dokumentasi resmi dapat diakses melalui tautan berikut:  
 🔗 [SynthCity Documentation – Read the Docs](https://github.com/vanderschaarlab/synthcity)
 
+Library lain yang digunakan dalam proyek ini adalah:
+- `pandas`, `numpy`, `matplotlib` – untuk manipulasi data dan visualisasi.
+- `scikit-learn` – untuk evaluasi model prediksi dan uji performa.
+
 ---
 
 ## 📈 Metode Evaluasi
@@ -47,8 +51,28 @@ Kualitas data sintetis dievaluasi menggunakan tiga pendekatan utama berikut:
 - **Train on Synthetic, Test on Real (TSTR)**  
   Mengukur kemampuan generalisasi model yang dilatih menggunakan data sintetis dan diuji pada data asli. Metode ini menguji seberapa “realistis” data sintetis dalam konteks pelatihan model prediktif.
 
+## Result Analisis
 
-## 🧪 Project Highlights
 
 
+## ⚙️ Installation
+Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/username/your-repo-name.git
+cd your-repo-name
+```
+### 2. Buat dan aktifkan environment virtual (opsional tetapi disarankan)
+```
+python -m venv venv
+source venv/bin/activate        # Untuk Linux/macOS
+venv\Scripts\activate           # Untuk Windows
+```
+### 3. Instal semua dependensi
+Pastikan Anda telah menginstal `pip`. Kemudian jalankan perintah:
+```
+pip install -r requirements.txt
+```
 ## 📌 Next Steps
